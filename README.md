@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution [here](https://github.com/odunlemi/preview-card)
-- Live Site [Link live site URL here](https://your-live-site-url.com)
+- Live Site [Link live site URL here](https://odunlemi.github.io/preview-card/)
 
 ## My process
 
