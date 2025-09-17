@@ -1,0 +1,146 @@
+/* Font: Figtree */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    min-width: 1440px;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    height: 522px;
+    max-width: 384px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px;
+    border-radius: 16px;
+}
+
+.illustration {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 16px;
+}
+
+.topic {
+    height: min-content;
+    width: 100px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.published {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content h1 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content h1 a:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.content p {
+    color: hsl(0, 0%, 42%);
+}
+
+.author {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.author img{
+    height: 30px;
+    width: 30px;
+}
+
+.author p {
+    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: underline;
+}
+
+/* Media queries */
+/* @media screen and (min-width: 375px) {
+    section {
+        height: 100vh;
+        min-width: 375px;
+    }
+
+    .container {
+        height: 501px;
+        max-width: 327px;
+    }
+
+    .illustration {
+        margin-bottom: 30px;
+    }
+
+    img {
+        width: 279px;
+    }
+
+    .content {
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+} */ 
