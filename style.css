@@ -120,7 +120,7 @@ img {
 }
 
 /* Media queries */
-/* @media screen and (min-width: 375px) {
+@media screen and (max-width: 600px) {
     section {
         height: 100vh;
         min-width: 375px;
@@ -143,4 +143,4 @@ img {
         margin-bottom: 30px;
         gap: 10px;
     }
-} */ 
+}

@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution [here](https://github.com/odunlemi/preview-card)
-- Live Site [Link live site URL here](https://odunlemi.github.io/preview-card/)
+- Live Site [here](https://odunlemi.github.io/preview-card/)
 
 ## My process
 
@@ -60,10 +60,16 @@ body {
     cursor: pointer;
 }
 ```
+```css
+/* Media query */
+@media screen and (max-width: 600px) {
+  /* Styles for mobile or smaller screens */
+}
+```
 
 ### Continued development
 
-1. Small screen responsiveness with media queries
+1. ~~Small screen responsiveness with media queries~~ Now done
 
 ### Useful resources
 
